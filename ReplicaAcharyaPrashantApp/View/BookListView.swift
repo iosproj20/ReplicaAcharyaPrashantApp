@@ -45,7 +45,7 @@ extension BookListView {
             switch response {
             case .success(let data):
                 isLoading = data
-                print(data )
+                print(data)
             case .failure(let error):
                 isLoading = false
                 showAlert = true
